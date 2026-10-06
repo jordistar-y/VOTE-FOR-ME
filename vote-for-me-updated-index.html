@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vote for Me — Bitcoin Support</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:680px;margin:0 auto;padding:24px;line-height:1.5;background:#f7f7f7;color:#171717}
+main{background:#fff;border-radius:20px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+h1{text-align:center;font-size:34px;margin:0 0 10px}.center{text-align:center}
+.buttons{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}
+.button{display:block;text-align:center;padding:14px;border-radius:12px;background:#111;color:#fff;text-decoration:none;font-weight:700}
+.card{border:1px solid #ddd;border-radius:16px;padding:20px;margin-top:24px}
+.address{word-break:break-all;background:#f1f1f1;padding:14px;border-radius:10px;font-size:14px}
+.qr{display:block;width:min(280px,100%);margin:18px auto}.small{font-size:13px;color:#555}
+</style>
+</head>
+<body>
+<main>
+<h1>🗳️ Vote for Me</h1>
+<p class="center">Thank you for your support. Choose an amount below to send Bitcoin to my dedicated voting wallet.</p>
+
+<div class="buttons">
+<a class="button" href="bitcoin:bc1qneec342a09w84uupp35p023s9gefp54st3few7?label=Vote%20for%20me">₿ $5</a>
+<a class="button" href="bitcoin:bc1qneec342a09w84uupp35p023s9gefp54st3few7?label=Vote%20for%20me">₿ $10</a>
+<a class="button" href="bitcoin:bc1qneec342a09w84uupp35p023s9gefp54st3few7?label=Vote%20for%20me">₿ $25</a>
+<a class="button" href="bitcoin:bc1qneec342a09w84uupp35p023s9gefp54st3few7?label=Vote%20for%20me">₿ Custom amount</a>
+</div>
+
+<div class="card">
+<h2>Don't have Bitcoin?</h2>
+<p>You can buy Bitcoin through MoonPay using a supported payment method. Availability, fees, limits, and verification requirements vary by location.</p>
+<a class="button" href="https://www.moonpay.com/buy" target="_blank" rel="noopener noreferrer">💳 Buy Bitcoin</a>
+<p class="small">When buying BTC for this page, choose Bitcoin and enter the receiving address below. Carefully verify the address before confirming.</p>
+</div>
+
+<div class="card">
+<h2 class="center">Scan to pay with Bitcoin</h2>
+<img class="qr" src="vote-for-me-bitcoin-qr.png" alt="Bitcoin payment QR code">
+<h2>Bitcoin receiving address</h2>
+<div class="address">bc1qneec342a09w84uupp35p023s9gefp54st3few7</div>
+<p class="small">Always verify the address in your wallet before sending.</p>
+</div>
+</main>
+</body>
+</html>
